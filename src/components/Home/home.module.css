@@ -1,9 +1,10 @@
 .homeContainer{
     display: flex;
     justify-content: space-around;
-    width: 80%;
+    width: 60%;
     color: white;
     align-items: center;
+    height: calc(100vh - 120px);
 }
 
 .infoContainer{
@@ -18,7 +19,7 @@
 }
 
 .infoContainer > button{
-    border: 1px solid;
+    border: none;
     border-radius: 50px;
     width: 35%;
     padding: 10px;
@@ -29,7 +30,7 @@
 }
 
 .imageContainer > img{
-    width: 300px;
+    width: 400px;
 }
 
 .infoContainer > h1{

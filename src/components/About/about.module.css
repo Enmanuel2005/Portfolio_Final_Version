@@ -16,6 +16,12 @@
     height: 450px;
 }
 
+.textInfoContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .textInfoContainer > h1{
     color: rgb(101, 101, 255);
 }
@@ -81,4 +87,29 @@
     background-color: rgb(101, 101, 255);
     height: 15px;
     border-radius: 50%;
+}
+
+.socialMediasContainer{
+    display: flex;
+    gap: 10px;
+}
+
+.media{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    gap: 5px;
+    border-radius: 50px;
+    font-size: 13px;
+    border: none;
+}
+
+.media:hover{
+    cursor: pointer;
+}
+
+.media > img{
+    width: 20px;
 }

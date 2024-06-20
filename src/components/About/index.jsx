@@ -8,6 +8,16 @@ const About = () => {
                 <div className={style.textInfoContainer}>
                     <h1>About Me</h1>
                     <p>I'm a Front-End Developer specializing in React, passionate about crafting intuitive web applications. Proficient in JavaScript, HTML, CSS, and experienced with Python and Odoo projects, I excel at translating ideas into compelling digital experiences. Eager to tackle new challenges and expand my technical expertise.</p>
+                    <div className={style.socialMediasContainer}>
+                        <button className={style.media}>
+                            <h4>GitHub</h4>
+                            <img src="images/github.png" alt="" />
+                        </button>
+                        <button className={style.media}>
+                            <h4>LinkedIn</h4>
+                            <img src="images/linkedin.png" alt="" />
+                        </button>
+                    </div>
                 </div>
                 <img src="images/profile.png" alt="" />
             </div>
@@ -26,7 +36,7 @@ const About = () => {
                                 </div>
                             </div>
                             <div className={style.textContainer}>
-                                <h4>2022 - 2025</h4>
+                                <h4>2022 - Currently</h4>
                                 <h2>Associate's Degree in Software Development</h2>
                                 <p>Currently, I am pursuing a Technology degree in Software Development at Instituto Tecnológico de las Américas, with an expected completion date in 2025. This program equips me with practical skills and knowledge in various aspects of software development, preparing me to contribute effectively to the dynamic tech industry upon graduation.</p>
                             </div>

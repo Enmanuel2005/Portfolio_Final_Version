@@ -11,7 +11,7 @@ const Home = () => {
         <button>Resume</button>
       </div>
       <div className={style.imageContainer}>
-        <img src="images/profile.png" alt="" />
+        <img src="images/HomeImage.webp" alt="" />
       </div>
     </div>
   )
