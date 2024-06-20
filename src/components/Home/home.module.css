@@ -1,0 +1,38 @@
+.homeContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    color: white;
+    align-items: center;
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.infoContainer > p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.infoContainer > button{
+    border: 1px solid;
+    border-radius: 50px;
+    width: 35%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(101, 101, 255);
+    cursor: pointer;
+}
+
+.imageContainer > img{
+    width: 300px;
+}
+
+.infoContainer > h1{
+    font-size: 50px;
+    color: rgb(101, 101, 255);
+}
