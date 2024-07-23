@@ -1,6 +1,7 @@
 import Nav from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
+import Contact from './components/Contact'
 
 function App() {
 
@@ -10,8 +11,9 @@ function App() {
         <Nav />
       </div>
       <div className="home_card">
-        {/* <Home /> */}
-        <About />
+        <Home />
+        {/* <About /> */}
+        {/* <Contact /> */}
       </div>
     </div>
   )

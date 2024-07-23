@@ -10,15 +10,6 @@ const Nav = () => {
         <a href="">About</a>
         <a href="">Projects</a>
         <a href="">Contact Me</a>
-        <div className={style.switchContainer}>
-          <label className={style.switch}>
-            <input type="checkbox" />
-            <div>
-              <span></span>
-            </div>
-          </label>
-          <h4>Light</h4>
-        </div>
       </div>
     </header>
   )

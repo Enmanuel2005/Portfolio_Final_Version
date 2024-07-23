@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: column;
     width: 80%;
-    gap: 30px;
     align-items: center;
     padding: 20px;
 }
@@ -35,14 +34,19 @@
     gap: 30px;
 }
 
-.infoContainer{
+.principalContainer{
     display: flex;
     flex-direction: column;
+}
+
+.infoContainer{
+    display: flex;
     gap: 15px;
 }
 
-.infoContainer > h1{
+.principalContainer > h1{
     color: rgb(101, 101, 255);
+    margin-bottom: 20px;
 }
 
 .textContainer{
@@ -67,6 +71,7 @@
 
 .sectionInfo{
     display: flex;
+    flex-direction: column;
     gap: 10px;
 }
 
@@ -101,15 +106,81 @@
     color: black;
     padding: 5px;
     gap: 5px;
-    border-radius: 50px;
+    border-radius: 5px;
     font-size: 13px;
     border: none;
 }
 
 .media:hover{
     cursor: pointer;
+    background-color: rgb(220, 220, 241);
 }
 
 .media > img{
     width: 20px;
+}
+
+.mySkillsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.mySkillsContainer > h1{
+    color: rgb(101, 101, 255);
+}
+
+.skillsContainer{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#htmlAndCssSkillContainer{
+    background-color: rgb(80, 77, 77);
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.imgContainer{
+    display: flex;
+    gap: 10px;
+
+}
+
+.imgContainer > img{
+    width: 56px;
+}
+
+.SkillContainer{
+    display: flex;
+    background-color: rgb(80, 77, 77);
+    padding: 10px;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.SkillContainer > img{
+    width: 56px;
+}
+
+.SkillContainer > h4 {
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.SkillContainer:hover{
+    background-color: rgb(59, 59, 109);
 }
